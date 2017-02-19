@@ -7,7 +7,7 @@ angular.module('myFirstApp', [])
   $scope.name = "Jacob";
   $scope.sayHello = function () {
     return "hello jyngst!";
-  }
+  };
 });
 
 })();

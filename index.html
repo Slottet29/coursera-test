@@ -2,14 +2,16 @@
 <html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
-    <script src="angular-min-js"></script>
+    <script src="angular.min.js"></script>
     <script src="app.js"></script>
     <title>Min egen test</title>
   </head>
   <body>
     <h1>My first angular js app</h1>
     <div ng-controller="MyFirstController">
-      {{name}} hej med dig {{sayHello()}}
+      mit navn er {{name}} og her kan du ændre det
+      <input type="text" ng-model="name">
+      {{sayHello()}}
     </div>
   </body>
 </html>
