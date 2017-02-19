@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
+    <script src="angular-min-js"></script>
+    <script src="app.js"></script>
     <title>Min egen test</title>
   </head>
   <body>
-    <h1>hej igen, nu er det vildt, Yahhooo</h1>
+    <h1>My first angular js app</h1>
+    <div ng-controller="MyFirstController">
+      {{name}} hej med dig {{sayHello()}}
+    </div>
   </body>
-
 </html>
